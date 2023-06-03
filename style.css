@@ -80,3 +80,22 @@ ul li span {
   letter-spacing: -2px;
   color: #090039;
 }
+
+@media (min-width: 700px) {
+  body {
+    padding: 8.0rem;
+  }
+  
+  main {
+    max-width: 1020px;
+    display: flex;
+    gap: 10rem;
+  }
+
+  main > div {
+    max-width: 484px;
+  }
+
+
+
+}
